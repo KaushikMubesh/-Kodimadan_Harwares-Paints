@@ -21,7 +21,7 @@ export const MainBox = () => {
               <p className='text-[25px] transform -translate-y-11 font-joan'><span className='text-[40px]'>I</span>nvest in Strength and Durability for Your Home</p>
               <div className='flex flex-col gap-7'>
               <p className='font-kantumruy w-[700px] text-[20px]'>Offering paints, hardware, plumbing accessories, Ramco cement, modern taps, white cement, and construction rental materials. Get 20% off your first purchase!</p>
-              <button className='flex gap-2 w-[150px] shadow-2xl hover:scale-110 hover:shadow-primaryred bg-primaryred text-[18px] rounded-2xl p-3 font-bold text-gray-100 items-center'><LuShoppingBag />Order Now</button>
+              <button className='flex gap-2 w-[150px] shadow-2xl hover:scale-110 duration-300 hover:shadow-primaryred bg-primaryred text-[18px] rounded-2xl p-3 font-bold text-gray-100 items-center'><LuShoppingBag />Order Now</button>
               </div>
                          
             </div>

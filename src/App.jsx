@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { TopBar } from './TopBar'
 import { MainBox } from './MainBox'
+import { Ourdeals } from './Ourdeals'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
     <>
       <TopBar />
       <MainBox />
+      <Ourdeals />
     </>
   )
 }
