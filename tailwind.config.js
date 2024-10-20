@@ -11,7 +11,9 @@ export default {
         jim: ['"Jim Nightshade"', 'cursive'],   // Jim Nightshade
         itim: ['Itim', 'sans-serif'],   
         kantumruy: ['"Kantumruy Pro"', 'sans-serif'],
-        joan: ['"Joan"', 'serif'],            // Itim
+        joan: ['"Joan"', 'serif'],
+        kavivanar: ['"Kavivanar"', 'cursive'],
+        // Itim
       },
       colors: {
         primaryred: '#DE2C4D', 

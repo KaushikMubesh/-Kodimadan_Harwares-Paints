@@ -21,9 +21,9 @@ export const MainBox1 = () => {
                 </div>
                             
             </div>
-            <div className='absolute pl-[60%] pb-8'>
+            {/* <div className='absolute pl-[60%] pb-8'>
                 <img src={Logo} width={600} alt="" />
-            </div>
+            </div> */}
         </div>
         
     </div>
