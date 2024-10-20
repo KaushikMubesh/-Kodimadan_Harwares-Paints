@@ -5,6 +5,7 @@ import './App.css'
 import { TopBar } from './TopBar'
 import { MainBox } from './MainBox'
 import { Ourdeals } from './Ourdeals'
+import { MainBox1 } from './MainBox1'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,7 @@ function App() {
   return (
     <>
       <TopBar />
-      <MainBox />
+      <MainBox1 />
       <Ourdeals />
     </>
   )

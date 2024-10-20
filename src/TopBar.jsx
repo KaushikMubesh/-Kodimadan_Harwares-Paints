@@ -5,7 +5,7 @@ import { GiPaintBucket } from "react-icons/gi";
 
 export const TopBar = () => {
   return (
-    <div className='w-[100%] pt-5'>
+    <div className='w-[100%] relative pt-5'>
         <div className='flex gap-[18%] pl-[20%] ' >
             <div>
                 <p className='text-[30px] font-joti text-primaryred'>KODIMADAN</p>
