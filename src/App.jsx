@@ -7,6 +7,7 @@ import { MainBox } from './MainBox'
 import { Ourdeals } from './Ourdeals'
 import { MainBox1 } from './MainBox1'
 import { AsianPaints } from './AsianPaints'
+import { Asianpaints1 } from './Asianpaints1'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
       <MainBox1 />
       <Ourdeals />
       <AsianPaints />
+      <Asianpaints1 />
     </>
   )
 }
