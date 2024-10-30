@@ -19,14 +19,14 @@ export const AsianPaints = () => {
             {/* Clear text inside the cat container */}
             <div className="relative z-10 blur-none cat p-8">
               <p className="text-black font-kavivanar text-[20px]">
-                We have been proudly dealing with Asian Paints since 2023 and are an authorized dealer for the brand. With over 2200+ colors available, we offer a wide range of options to help you create the perfect look for your home. Trust us for quality, variety, and expert advice on all your painting needs!
+                <span className='text-[30px]'>W</span>e have been proudly dealing with Asian Paints since 2023 and are an authorized dealer for the brand. With over 2200+ colors available, we offer a wide range of options to help you create the perfect look for your home. Trust us for quality, variety, and expert advice on all your painting needs!
               </p>
             </div>
           </div>
 
           {/* Image section (unblurred) */}
           <div className="pt-0" style={{ textShadow: '1px 1px 10px rgba(0, 0, 0, 0.25)', WebkitTextStroke: '1px white' }}>
-            <img width={500} src={Asian} className="drop-shadow-[0px_4px_4px_rgba(0,0,0,0.5)]" alt="Asian Paints" />
+            <img width={500} className="drop-shadow-[10px_20px_60px_rgba(0,0,0,5)]" src={Asian} alt="Asian Paints" />
           </div>
         </div>
       </div>
