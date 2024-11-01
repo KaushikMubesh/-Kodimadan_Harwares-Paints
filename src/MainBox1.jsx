@@ -6,7 +6,7 @@ export const MainBox1 = () => {
   return (
     <div className=''>
         <div>
-            <div className='font-thin text-[50px] font-itim text-gray-900 pl-[10%] pt-[4%] ' style={{ textShadow: '1px 1px 10px rgba(0, 0, 0, 0.25)' , WebkitTextStroke: '1px white' }}>
+            <div className='font-thin text-[50px] relative font-itim text-gray-900 pl-[10%] pt-[4%] ' style={{ textShadow: '1px 1px 10px rgba(0, 0, 0, 0.25)' , WebkitTextStroke: '1px white' }}>
                     <p className=''><span className='text-[80px]' >D</span>
                         esign Your Perfect <span className='text-primaryyel text-[80px]'>House</span> with</p>
                     <p className=' transform -translate-y-11'>

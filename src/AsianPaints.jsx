@@ -3,6 +3,8 @@ import Asian from './assets/Asian.png';
 
 export const AsianPaints = () => {
   return (
+
+    // fucking GPT Made This !!!
     <div className="p-0 mx-0">
       <div className="w-full flex items-center justify-center h-[600px] relative">
         {/* Background with blur effect */}
@@ -18,8 +20,8 @@ export const AsianPaints = () => {
             
             {/* Clear text inside the cat container */}
             <div className="relative z-10 blur-none cat p-8">
-              <p className="text-black font-kavivanar text-[20px]">
-                <span className='text-[30px]'>W</span>e have been proudly dealing with Asian Paints since 2023 and are an authorized dealer for the brand. With over 2200+ colors available, we offer a wide range of options to help you create the perfect look for your home. Trust us for quality, variety, and expert advice on all your painting needs!
+              <p className="text-black font-kavivanar text-[20px] leading-[45px]"><span className="text-primaryyel/40 mr-9"></span>
+                <span className='text-[40px]'>W</span>e have been proudly dealing with Asian Paints since 2023 and are an authorized dealer for the brand. With over 2200+ colors available, we offer a wide range of options to help you create the perfect look for your home. Trust us for quality, variety, and expert advice on all your painting needs!
               </p>
             </div>
           </div>

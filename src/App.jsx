@@ -7,6 +7,7 @@ import { MainBox } from './MainBox'
 import { Ourdeals } from './Ourdeals'
 import { MainBox1 } from './MainBox1'
 import { AsianPaints } from './AsianPaints'
+import { Gallery1 } from './Gallery1'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +17,10 @@ function App() {
       <TopBar />
       <MainBox1 />
       <Ourdeals />
+      {/* <UpperAsian /> */}
+      {/* <Asianpaints1 /> */}
       <AsianPaints />
+      <Gallery1 />
     </>
   )
 }
